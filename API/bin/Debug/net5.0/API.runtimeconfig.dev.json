@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\iGolu\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\iGolu\\.nuget\\packages"
+    ]
+  }
+}
