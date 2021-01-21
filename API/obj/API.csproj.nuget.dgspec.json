@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "e:\\Projects\\Dating\\API\\API.csproj": {}
+    "E:\\Projects\\Dating\\api\\API.csproj": {}
   },
   "projects": {
-    "e:\\Projects\\Dating\\API\\API.csproj": {
+    "E:\\Projects\\Dating\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\Projects\\Dating\\API\\API.csproj",
+        "projectUniqueName": "E:\\Projects\\Dating\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "e:\\Projects\\Dating\\API\\API.csproj",
+        "projectPath": "E:\\Projects\\Dating\\api\\API.csproj",
         "packagesPath": "C:\\Users\\iGolu\\.nuget\\packages\\",
-        "outputPath": "e:\\Projects\\Dating\\API\\obj\\",
+        "outputPath": "E:\\Projects\\Dating\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\iGolu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -51,6 +51,8 @@
               "version": "[5.0.2, )"
             },
             "Microsoft.SourceLink.GitHub": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[1.0.0, )"
             },
