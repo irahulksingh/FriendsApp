@@ -1,6 +1,6 @@
 import { ConditionalExpr } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
-import { Console } from 'console';
+import { AccountService } from '../_service/account.service';
 
 @Component({
   selector: 'app-nav',
@@ -10,14 +10,19 @@ import { Console } from 'console';
 export class NavComponent implements OnInit {
 
   model : any ={}
-
-  constructor() { }
+  loggedin: boolean | undefined;
+  constructor(private accountService: AccountService) { }
 
   ngOnInit(): void {
   }
 
   login(){
-    console.log(this.model);
+   this.accountService.login(this.model).subscribe(response =>{
+     console.log(response);
+    this.loggedin=true;
+   }, error =>{
+     console.log (error);
+   })
   }
 
 }
