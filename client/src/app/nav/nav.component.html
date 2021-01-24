@@ -2,7 +2,7 @@
   
   <div class="container"> 
     <a class="navbar-brand" href="#">Friends</a>
-         <ul class="navbar-nav me-auto mb-2 mb-md-0">
+         <ul class="navbar-nav me-auto mb-2 mb-md-0" *ngIf="loggedIn">
         <li class="nav-item">
           <a class="nav-link" href="#">Matches</a>
         </li>
@@ -12,8 +12,20 @@
         <li class="nav-item">
           <a class="nav-link">Messages</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link"(click)="logout()">Messages</a>
+        </li>
       </ul>
-      <form #loginform="ngForm" class="form-inline mt-2 mt-md-0" (ngSubmit)="login()"
+<div class=""dropdown *ngIf="loggedIn" dropdown>
+<a class ="dropdown-toggle text-light" dropdownToggle>Welcome User</a>
+  <div class="dropdown-menu" *dropdownMenu>
+    <a class="dropdown-item">Edit Profile</a>
+    <div class ="div.dropdown-divider"></div>
+    <a class="dropdown-item" (click)="logout()">Logout</a>
+      </div>
+</div>
+
+      <form *ngIf="!loggedIn" #loginform="ngForm" class="form-inline mt-2 mt-md-0" (ngSubmit)="login()"
        autocomplete="off">
         <input name="username" 
         [(ngModel)]="model.username"

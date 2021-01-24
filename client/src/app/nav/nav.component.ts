@@ -10,7 +10,7 @@ import { AccountService } from '../_service/account.service';
 export class NavComponent implements OnInit {
 
   model : any ={}
-  loggedin: boolean | undefined;
+  loggedIn: boolean | undefined;
   constructor(private accountService: AccountService) { }
 
   ngOnInit(): void {
@@ -19,10 +19,14 @@ export class NavComponent implements OnInit {
   login(){
    this.accountService.login(this.model).subscribe(response =>{
      console.log(response);
-    this.loggedin=true;
+    this.loggedIn=true;
    }, error =>{
      console.log (error);
    })
+  }
+  logout(){
+this.loggedIn=false;
+
   }
 
 }
