@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projects\\Dating\\api\\API.csproj": {}
+    "E:\\Projects\\Dating\\API\\API.csproj": {}
   },
   "projects": {
-    "E:\\Projects\\Dating\\api\\API.csproj": {
+    "E:\\Projects\\Dating\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\Dating\\api\\API.csproj",
+        "projectUniqueName": "E:\\Projects\\Dating\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "E:\\Projects\\Dating\\api\\API.csproj",
+        "projectPath": "E:\\Projects\\Dating\\API\\API.csproj",
         "packagesPath": "C:\\Users\\iGolu\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\Dating\\api\\obj\\",
+        "outputPath": "E:\\Projects\\Dating\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\iGolu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",

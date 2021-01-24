@@ -60,3 +60,6 @@ E:\Projects\Dating\api\obj\Debug\net5.0\scopedcss\bundle\API.styles.css
 E:\Projects\Dating\api\obj\Debug\net5.0\API.RazorTargetAssemblyInfo.cache
 E:\Projects\Dating\api\obj\Debug\net5.0\API.csproj.CopyComplete
 E:\Projects\Dating\api\obj\Debug\net5.0\API.genruntimeconfig.cache
+E:\Projects\Dating\API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Projects\Dating\API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+E:\Projects\Dating\API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
