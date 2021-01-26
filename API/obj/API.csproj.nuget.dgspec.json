@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projects\\Dating\\API\\API.csproj": {}
+    "E:\\Projects\\Dating\\api\\API.csproj": {}
   },
   "projects": {
-    "E:\\Projects\\Dating\\API\\API.csproj": {
+    "E:\\Projects\\Dating\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\Dating\\API\\API.csproj",
+        "projectUniqueName": "E:\\Projects\\Dating\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "E:\\Projects\\Dating\\API\\API.csproj",
+        "projectPath": "E:\\Projects\\Dating\\api\\API.csproj",
         "packagesPath": "C:\\Users\\iGolu\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\Dating\\API\\obj\\",
+        "outputPath": "E:\\Projects\\Dating\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\iGolu\\AppData\\Roaming\\NuGet\\NuGet.Config",

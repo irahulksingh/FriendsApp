@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7loLnYdN+Tb3qyTjugYRa+GY0MXoFrk/xndl/uUMcgM0V/RBaXH6JXJpMMDxuihybkOQnXIdxQhUj7ujkrqKyQ==",
+  "dgSpecHash": "+ZLy2tkolYr3QjRAdLdFsL49l41Fs0J1d+E0NYn3Y/pWvdRxaYa8/ic0rF/6EoEw0QQb4nHSiD+g7dBU9g9bzg==",
   "success": true,
-  "projectFilePath": "E:\\Projects\\Dating\\API\\API.csproj",
+  "projectFilePath": "E:\\Projects\\Dating\\api\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\iGolu\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\iGolu\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.2\\microsoft.aspnetcore.authentication.jwtbearer.5.0.2.nupkg.sha512",
